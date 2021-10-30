@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!-- One Click Addition inline script -->
+     <p>39+22 = ?</p>
+     <button type="button" onclick="document.write(39+22)">Try It</button>
+
+    <!-- Diffarent way to addition -->
+    <p id="test"></p>
+    <!-- Statement Types-->
+    <script src="script.js">
+        // <!-- <Script> -->
+        let x,y,z;  //Statement 1 //Decleare 3 variable
+        x = 22;     //Statement 2 //Again the value 22 to x
+        y = 34;     //Statement 3 //Again the value 34 to y
+        z = x + y;  //Statement 4 //Assign the sum of x and y to z
+        document.getElementById("test").innerHTML = "The value of z is" + z + ".";
+    </script>
+</body>
+</html>
